@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Passer une commande</title>
+
+    <link rel="stylesheet" href="order.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Passer une commande</h1>
+
+    <form id="orderForm">
+
+        <label>Description du projet</label>
+
+        <textarea
+            id="description"
+            placeholder="Décrivez ici le logiciel ou le service que vous souhaitez..."
+            required>
+        </textarea>
+
+        <div class="buttons">
+
+            <button type="submit" class="orderBtn">
+                <i class="fa-solid fa-paper-plane"></i>
+                Passer la commande
+            </button>
+
+            <button type="button" class="contactBtn">
+                <i class="fa-solid fa-comments"></i>
+                Contacter l'ingénieur
+            </button>
+
+        </div>
+
+    </form>
+
+</div>
+
+<script src="order.js"></script>
+
+</body>
+</html>
